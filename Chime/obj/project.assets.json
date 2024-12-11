@@ -433,11 +433,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dboth\\Documents\\Chime2\\Chime\\Chime\\Chime.csproj",
+      "projectUniqueName": "C:\\Users\\dboth\\Documents\\GitHub\\Chime\\Chime\\Chime.csproj",
       "projectName": "Chime",
-      "projectPath": "C:\\Users\\dboth\\Documents\\Chime2\\Chime\\Chime\\Chime.csproj",
+      "projectPath": "C:\\Users\\dboth\\Documents\\GitHub\\Chime\\Chime\\Chime.csproj",
       "packagesPath": "C:\\Users\\dboth\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dboth\\Documents\\Chime2\\Chime\\Chime\\obj\\",
+      "outputPath": "C:\\Users\\dboth\\Documents\\GitHub\\Chime\\Chime\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dboth\\AppData\\Roaming\\NuGet\\NuGet.Config",

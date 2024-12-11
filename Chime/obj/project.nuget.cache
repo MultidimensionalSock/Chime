@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uEKgAdNKlso=",
+  "dgSpecHash": "hREqn/NTPbc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\dboth\\Documents\\Chime2\\Chime\\Chime\\Chime.csproj",
+  "projectFilePath": "C:\\Users\\dboth\\Documents\\GitHub\\Chime\\Chime\\Chime.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dboth\\.nuget\\packages\\opentk\\4.9.3\\opentk.4.9.3.nupkg.sha512",
     "C:\\Users\\dboth\\.nuget\\packages\\opentk.audio.openal\\4.9.3\\opentk.audio.openal.4.9.3.nupkg.sha512",
