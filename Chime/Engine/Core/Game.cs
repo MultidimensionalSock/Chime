@@ -5,7 +5,7 @@ using OpenTK.Windowing.Desktop;
 using OpenTK.Windowing.GraphicsLibraryFramework;
 using System.IO;
 
-namespace Chime.Engine.Graphics
+namespace Chime.Engine.Core
 {
     public static class Program
     {
@@ -93,7 +93,7 @@ namespace Chime.Engine.Graphics
         {
             base.OnResize(e);
 
-            GL.Viewport(0,0, Size.X, Size.Y);   
+            GL.Viewport(0, 0, Size.X, Size.Y);
         }
 
         protected override void OnUnload()
@@ -115,9 +115,9 @@ namespace Chime.Engine.Graphics
         public readonly int Handle;
 
         private readonly Dictionary<string, int> _uniformLocations;
-         
+
         public Shader(string vertPath, string fragPath)
-        { 
+        {
             var shaderSource = File.ReadAllText(vertPath);
             var vertexShader = GL.CreateShader(ShaderType.VertexShader);
             GL.ShaderSource(vertexShader, shaderSource);
