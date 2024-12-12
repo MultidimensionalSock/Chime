@@ -40,8 +40,7 @@ namespace Chime.Engine.Core
 
         private Shader _shader;
 
-        public Game(GameWindowSettings settings, NativeWindowSettings windowSettings)
-            : base(settings, windowSettings)
+        public Game(GameWindowSettings settings, NativeWindowSettings windowSettings) : base(settings, windowSettings)
         {
 
         }

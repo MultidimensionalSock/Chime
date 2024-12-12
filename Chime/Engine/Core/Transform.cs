@@ -1,10 +1,4 @@
 ﻿using OpenTK.Mathematics;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Media.Imaging;
 
 namespace Chime.Engine.Core
 {
@@ -12,14 +6,23 @@ namespace Chime.Engine.Core
     {
         public Transform(GameObject gameObject) : base(gameObject)
         {
-
+            Position = Vector3.Zero;
+            Rotation = Quaternion.Identity;
+            Scale = Vector3.One;
         }
 
-        public Vector3 Position; 
+        public Transform(Vector3 position, Quaternion rotation, Vector3 scale, GameObject gameObject) : base(gameObject)
+        {
+            Position = position;
+            Rotation = rotation;
+            Scale = scale;
+        }
+
+        public Vector3 Position;
         public Quaternion Rotation;
         public Vector3 Scale;
 
-        List<GameObject> _children;
+        List<Transform> _children;
 
         public int ChildCount => _children.Count;
         //TODO: public eulerAngles =>;

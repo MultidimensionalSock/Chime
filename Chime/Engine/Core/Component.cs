@@ -1,12 +1,4 @@
-﻿using OpenTK.Graphics.ES20;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Chime.Engine.Core
+﻿namespace Chime.Engine.Core
 {
     public class Component
     {
@@ -39,7 +31,7 @@ namespace Chime.Engine.Core
         public virtual void LateUpdate() { }
         public virtual void OnDraw() { }
         public virtual void OnDestroy() { }
-        
+
         public virtual void OnCollisionEnter() { }
         public virtual void OnCollisionStay() { }
         public virtual void OnCollisionExit() { }

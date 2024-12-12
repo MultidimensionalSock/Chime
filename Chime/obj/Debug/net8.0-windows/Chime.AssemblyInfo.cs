@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Chime")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0b0de638340d762e4db71d7b8e86ba64c5d6fdc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d1a72a5ec93998cc362dacf48b145687bbff62c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Chime")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Chime")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
