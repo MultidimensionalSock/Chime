@@ -1,4 +1,5 @@
 ﻿using ChimeEngine.Core;
+using OpenTK.Windowing.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,7 +28,7 @@ namespace ChimeEngine.Core
                 _active = value;
             }
         }
-        private bool _active;
+        protected bool _active;
 
         public virtual void OnEnable() { }
         public virtual void OnDisable() { }
