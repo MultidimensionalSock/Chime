@@ -31,7 +31,6 @@ namespace ChimeEngine.Core
         List<Transform> _children;
 
         public int ChildCount => _children.Count;
-        //TODO: public eulerAngles =>;
 
     }
 }

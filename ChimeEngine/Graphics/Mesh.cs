@@ -55,6 +55,11 @@ namespace ChimeEngine.Graphics
             SetupMesh();
         }
 
+        ~Mesh()
+        {
+
+        }
+
 
         private void SetupMesh() 
         {

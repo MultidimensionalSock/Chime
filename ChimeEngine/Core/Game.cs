@@ -61,6 +61,7 @@ namespace ChimeEngine.Core
             base.OnRenderFrame(args);
             GL.Clear(ClearBufferMask.ColorBufferBit);
             test.Draw();
+            SwapBuffers();
         }
 
         protected override void OnUpdateFrame(FrameEventArgs args)
